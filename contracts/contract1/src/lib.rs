@@ -4,8 +4,8 @@ use cosmwasm_std::{
 use serde::{Deserialize, Serialize};
 
 #[derive(Serialize, Deserialize)]
-struct RegisterMsg {
-    username: String,
+pub struct RegisterMsg {
+   pub username: String,
 }
 
 #[entry_point]
