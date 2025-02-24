@@ -60,3 +60,5 @@ cargo build
 
 grep mio Cargo.lock
 
+Todos
+use mio for contracts only if it's possible(had issues) if not, go to: cosmwasmdocs
